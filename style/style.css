@@ -1,0 +1,218 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+#nav ul{
+  display: flex;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+}
+
+#nav ul li{
+  flex-direction: row;
+  list-style:none;
+  margin-right: 7px;
+}
+
+#nav ul li{
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#nav ul li:first-child{
+  margin-left: 7px;
+}
+
+#nav ul li:last-child{
+  margin-right: 0px;
+}
+
+.addCarBut{
+  cursor:pointer;
+}
+
+.aside{
+  margin-top: 10px;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  padding:10px 0px 10px 0px;
+}
+
+.aside h2{
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.aside ul{
+  margin-left: 40px;
+}
+
+.buttonPodr{
+  margin-top: 10px;
+  cursor: pointer;
+  width:85px;
+  margin-left: 40px;
+  border:1px solid black;
+  border-radius: 5px;
+}
+
+.buttonPodr:hover{
+  background-color: green;
+  color:white;
+}
+
+.buttonPodr a {
+  display: block;
+  padding:5px;
+  text-decoration: none;
+}
+
+.clear{
+  clear:both;
+}
+
+.carPatternNoFlex{
+  font-size: 1.5em;
+  display:block;
+}
+
+.carPattern{
+  font-size: 1.5em;
+  display: flex;
+}
+
+.wrapForm *{
+    margin-left: 20px;
+}
+
+.wrapForm *{
+  margin-top:5px;
+}
+
+.wrapAuto{
+  /*  display: inline-block;
+  float:left;*/
+}
+
+.menuAuto{
+  text-align: center;
+  margin-left: 100px;
+}
+
+.menuAuto h2{
+  display: block;
+}
+
+header h1, header button{
+  display: inline-block;
+}
+
+header button{
+  border: 0;
+}
+
+header button a{
+  border:1px solid black;
+  padding: 2px;
+  display: block;
+}
+
+header button a:hover{
+  background-color: #929292;
+}
+
+.userDate{
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.userDate input{
+  font-size: 1.2em;
+}
+
+.message{
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 2em;
+}
+
+input[name="number"]{
+  width:100px;
+}
+
+input[name="numberCode"]{
+  width:50px;
+}
+
+input[name="otdel"]{
+  width:100px;
+}
+
+input[name="yearProd"]{
+  width: 70px;
+}
+
+input[name="monthApt"]{
+  width:50px;
+}
+
+input[name="yearApt"]{
+  width:70px;
+}
+
+input[nameheader="monthOgn"]{
+  width:50px;
+}
+
+input[name="yearOgn"]{
+  width:70px;
+}
+
+input[name="monthSmotr"]{
+  width:50px;
+}
+
+input[name="yearSmotr"]{
+  width:70px;
+}
+
+/* Паггинация */
+.pagination{
+  margin-top: 10px;
+}
+.pagination li{
+    display: inline-block;
+}
+
+.pagination li a{
+  display: block;
+  margin-left: 5px;
+  border: 1px solid black;
+  padding: 7px;
+}
+
+.pagination li:last-child{
+  margin-left: 0px;
+}
+
+
+.hidden{
+  display:none;
+}
+
+.sub{
+  margin-left: 20px;
+  padding:2px;
+  cursor:pointer;
+}
+
+.del{
+  color:red;
+}
